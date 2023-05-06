@@ -1,0 +1,16 @@
+"AWT-EventQueue-0" tid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+     Frozen for 6secs
+	at java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.15/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.15/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:447)
+	at java.base@11.0.15/java.util.concurrent.FutureTask.get(FutureTask.java:190)
+	at com.intellij.diagnostic.PerformanceWatcherImpl$FreezeCheckerTask.stop(PerformanceWatcherImpl.java:544)
+	at com.intellij.diagnostic.PerformanceWatcherImpl.edtEventFinished(PerformanceWatcherImpl.java:368)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:492)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop@11.0.15/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
